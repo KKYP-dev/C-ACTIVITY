@@ -8,30 +8,29 @@ int main() {
    
    // CODE FOR END USER INPUT
    long ussn;
-   cout << "USSN:" "\t";
+   cout << "USSN:\t";
    cin >> ussn;
    
    string lastname;
-   cout << "Lastname: \t" ;
+   cout << "Lastname:\t" ;
    cin >> lastname;
    
    string firstname;
-   cout << "First Name: \t";
+   cout << "First Name:\t";
    cin >> firstname;
    
    string middlename;
-   cout << "Middle Name: \t";
+   cout << "Middle Name:\t";
    cin >> middlename;
    
    int age;
-   cout << "Age: \t";
+   cout << "Age:\t";
    cin >> age;
    
    string year;
-   cout << "Year and Program: \t";
+   cout << "Year and Program:\t";
    cin >> year;
    
-   cout << "\n";
    
    // DISPLAYED INFO ACCORDING TO THE FILLED UP ITEMS
    cout << "================================ \n\n";
