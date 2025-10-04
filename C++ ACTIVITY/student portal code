@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+int main() {
+   
+    // TITLE 
+  cout << "==== AMA STUDENT PORTAL ====" << "\n\n";
+   cout << "Please Fill up the Following" "\n";
+   
+   // CODE FOR END USER INPUT
+   long ussn;
+   cout << "USSN:\t";
+   cin >> ussn;
+   
+   string lastname;
+   cout << "Lastname:\t" ;
+   cin >> lastname;
+   
+   string firstname;
+   cout << "First Name:\t";
+   cin >> firstname;
+   
+   string middlename;
+   cout << "Middle Name:\t";
+   cin >> middlename;
+   
+   int age;
+   cout << "Age:\t";
+   cin >> age;
+   
+   string year;
+   cout << "Year and Program:\t";
+   cin >> year;
+   
+   
+   // DISPLAYED INFO ACCORDING TO THE FILLED UP ITEMS
+   cout << "================================ \n\n";
+   cout << "==Student Information== \n\n";
+   cout << "USSN: " << ussn <<endl;
+   cout << "Lastname: " << lastname <<endl;
+   cout << "Firstname: " << firstname <<endl;
+   cout << "Middlename: " << middlename <<endl;
+   cout << "Age: " << age <<endl;
+   cout << "Year and Program: " << year <<endl<<endl;
+   
+   // WELCOMING REMARKS
+   cout << "Welcome " << firstname << " " << middlename << " " << lastname << " " << "to AMACC Lipa";
+   
+    return 0;
+}
