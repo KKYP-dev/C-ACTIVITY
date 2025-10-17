@@ -137,12 +137,12 @@ int main () {
     
     for (int a = 0; a < order; a++) {
     cout << "- " << number[a] << endl;}
-    cout << "With additional 10% tax" << endl << endl;
+    cout << "With additional 12% tax" << endl << endl;
     
      cout << "\n";
     
      // payment part
-     int tax = totalprice * 0.10;
+     int tax = totalprice * 0.12;
      int overall = totalprice + tax;
      int pay = 0;
     
